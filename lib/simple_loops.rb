@@ -16,7 +16,7 @@ def loop_message_n_times(message)
   end
 end
 
-def output_array
+def output_array(array)
   count = 0 
   while count < array.length do
     puts array[count]
@@ -24,7 +24,7 @@ def output_array
   end
 end
 
-def return_string_array
+def return_string_array(array)
   count = 0 
   while count < array.length do
     count += 1 
